@@ -7,6 +7,8 @@
 [![golangci-lint](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/golangci-lint.json)](https://github.com/bold-minds/oss/actions/workflows/test.yaml)
 [![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/coverage.json)](https://github.com/bold-minds/oss/actions/workflows/test.yaml)
 [![Dependabot](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/dependabot.json)](https://github.com/bold-minds/oss/security/dependabot)
+
+
 [BRIEF_DESCRIPTION_OF_YOUR_PROJECT]
 
 ## 🚀 Features
