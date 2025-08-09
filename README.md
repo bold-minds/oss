@@ -1,12 +1,12 @@
 # [PROJECT_NAME]
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Version](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/[REPO_NAME]/main/.github/badges/go-version.json)](https://golang.org/doc/go1.24)
-[![Latest Release](https://img.shields.io/github/v/release/bold-minds/[REPO_NAME]?logo=github&color=blueviolet)](https://github.com/bold-minds/[REPO_NAME]/releases)
-[![Last Updated](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/[REPO_NAME]/main/.github/badges/last-updated.json)](https://github.com/bold-minds/[REPO_NAME]/commits)
-[![golangci-lint](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/[REPO_NAME]/main/.github/badges/golangci-lint.json)](https://github.com/bold-minds/[REPO_NAME]/actions/workflows/test.yaml)
-[![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/[REPO_NAME]/main/.github/badges/coverage.json)](https://github.com/bold-minds/[REPO_NAME]/actions/workflows/test.yaml)
-[![Dependabot](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/[REPO_NAME]/main/.github/badges/dependabot.json)](https://github.com/bold-minds/[REPO_NAME]/security/dependabot)
+[![Go Version](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/go-version.json)](https://golang.org/doc/go1.24)
+[![Latest Release](https://img.shields.io/github/v/release/bold-minds/oss?logo=github&color=blueviolet)](https://github.com/bold-minds/oss/releases)
+[![Last Updated](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/last-updated.json)](https://github.com/bold-minds/oss/commits)
+[![golangci-lint](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/golangci-lint.json)](https://github.com/bold-minds/oss/actions/workflows/test.yaml)
+[![Coverage](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/coverage.json)](https://github.com/bold-minds/oss/actions/workflows/test.yaml)
+[![Dependabot](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/bold-minds/oss/main/.github/badges/dependabot.json)](https://github.com/bold-minds/oss/security/dependabot)
 [BRIEF_DESCRIPTION_OF_YOUR_PROJECT]
 
 ## 🚀 Features
