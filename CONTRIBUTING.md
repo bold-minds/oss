@@ -1,4 +1,4 @@
-# Contributing to Advanced ULID Library
+# Contributing to [PROJECT_NAME]
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -58,7 +58,7 @@ We follow standard Go conventions:
 
 ## 🐛 Bug Reports
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/bold-minds/id/issues/new).
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/bold-minds/[REPO_NAME]/issues/new).
 
 **Great Bug Reports** tend to have:
 

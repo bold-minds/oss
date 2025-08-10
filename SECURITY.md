@@ -18,9 +18,9 @@ Please do not report security vulnerabilities through public GitHub issues, disc
 
 ### 2. Report Privately
 
-Send an email to **security@bold-minds.com** with the following information:
+Send an email to **security@boldminds.tech** with the following information:
 
-- **Subject**: Security Vulnerability in bold-minds/id
+- **Subject**: Security Vulnerability in bold-minds/[REPO_NAME]
 - **Description**: Detailed description of the vulnerability
 - **Steps to Reproduce**: Clear steps to reproduce the issue
 - **Impact**: Potential impact and severity assessment
@@ -43,43 +43,33 @@ Send an email to **security@bold-minds.com** with the following information:
 
 ## Security Considerations
 
-### Entropy Sources
+[Replace this section with security considerations specific to your project]
 
-This library provides multiple entropy source options:
+### [PROJECT_SPECIFIC_SECURITY_SECTION]
 
-- **Default**: Uses `math/rand` with time-based seeding (suitable for most applications)
-- **Secure**: Uses `crypto/rand` for cryptographically secure randomness
-- **Custom**: Allows you to provide your own entropy source
+[Add project-specific security considerations here. Examples:]
 
-For security-sensitive applications, always use `NewSecureGenerator()`:
-
-```go
-// For security-sensitive applications
-gen := id.NewSecureGenerator()
-```
-
-### ULID Properties
-
-ULIDs have the following security-relevant properties:
-
-- **Predictable Timestamp**: The first 48 bits encode timestamp in milliseconds
-- **Random Component**: The remaining 80 bits are random (when using appropriate entropy)
-- **Not Cryptographically Secure**: ULIDs are not designed to be cryptographically secure identifiers
+- **Input Validation**: Always validate external inputs
+- **Authentication**: Implement proper authentication mechanisms
+- **Authorization**: Ensure proper access controls
+- **Data Protection**: Handle sensitive data appropriately
+- **Rate Limiting**: Implement rate limiting for public APIs
+- **Error Handling**: Avoid exposing sensitive information in error messages
 
 ### Best Practices
 
-1. **Use Secure Generation**: For sensitive applications, use `NewSecureGenerator()`
-2. **Validate Input**: Always validate ULIDs from external sources using `IsIdValid()`
-3. **Handle Errors**: Properly handle all error returns from library functions
-4. **Avoid Timing Attacks**: Be aware that timestamp extraction reveals creation time
-5. **Rate Limiting**: Consider rate limiting ULID generation in public APIs
+1. **[PRACTICE_1]**: [Description of security practice]
+2. **[PRACTICE_2]**: [Description of security practice]
+3. **[PRACTICE_3]**: [Description of security practice]
+4. **Input Validation**: Always validate inputs from external sources
+5. **Error Handling**: Properly handle all error returns from library functions
 
 ### Known Limitations
 
-- ULIDs reveal approximate creation time
-- Monotonic ordering within the same millisecond depends on entropy source
-- Not suitable as cryptographic tokens or passwords
-- Should not be used for security-critical random number generation
+[List any known security limitations of your project]
+
+- **[LIMITATION_1]**: [Description]
+- **[LIMITATION_2]**: [Description]
 
 ## Security Updates
 
