@@ -117,8 +117,12 @@ jobs:
             echo '{"schemaVersion":1,"label":"security","message":"all clear","color":"brightgreen"}' > .github/badges/dependabot.json
           fi
 
+      # Auto-commit badges to main. Non-fatal — if branch protection or
+      # permissions block the push, the badges are still generated locally
+      # as step artifacts but the workflow remains green.
       - name: Commit badges to main
         if: github.ref == 'refs/heads/main' && matrix.os == 'ubuntu-latest'
+        continue-on-error: true
         env:
           RUN_NUMBER: ${{ github.run_number }}
         run: |
